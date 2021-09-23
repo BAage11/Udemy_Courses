@@ -1,0 +1,43 @@
+To download Anaconda, head over to the website:
+     anaconda.com/products/individual
+Scroll down to 'Anaconda Installers' and select according to your device/computer.
+Then, go to download folder and install the program.
+
+
+To open the Anaconda program, head to Windows search bar and type in:
+	'Anaconda'
+Where you select the 'Anaconda Prompt'.
+
+
+Open up the jupyter environment:
+Open Anaconda Prompt, type in the following:
+	jupyter notebook
+
+To run a cell in a Anaconda Notebook (Python 3) document, press:
+ 	'Ctrl + Enter'
+
+-------------------------------------------------------------------------------
+Packages to install:
+
+Data Science - Lecture ___:
+Open Anaconda Prompt, type in the following:
+	conda install numpy
+
+
+Data Science - Lecture 142:
+Open Anaconda Prompt, type in the following:
+	conda install matplotlib
+
+
+Machine Learning - Lecture 181:
+Open Anaconda Prompt, and install:
+	conda install scikit-learn
+
+
+Artificial Intellengence - Lecture 194:
+Open Anaconda Prompt, and install:
+	conda install nltk
+
+Artificial Intellengence - Lecture 197:
+Open Anaconda Prompt, and install:
+	conda install opencv

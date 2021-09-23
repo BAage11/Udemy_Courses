@@ -1,0 +1,160 @@
+----------------------------------------------------------------------------
+# Create a text string in the window for display:
+Display = Label(App, text = 'Application window')
+Display.pack()
+----------------------------------------------------------------------------
+# Function for displaying a message when the 'click' button is pressed
+from random import randint
+def show_msg():
+    msg = Label(App, text=randint(1, 100))
+    msg.pack()
+
+# Create a button, which 'show_msg' function when clicked
+click_button = Button(App, text='Generate', command=show_msg)
+click_button.pack()
+----------------------------------------------------------------------------
+# Get user input field
+userInput = Entry(App)
+userInput.pack()
+
+# Show user input message when button is clicked
+def show_input():
+    user_msg = userInput.get()
+    msg = Label(App, text=user_msg)
+    msg.pack()
+
+button = Button(App, text='Show', command=show_input)
+button.pack()
+----------------------------------------------------------------------------
+Ctrl + R                  -->    Find and replace all chosen 'words' in document
+.pack()                   -->    Stacks all methods created (vertically)
+.grid(row=0, column=0)    -->    Gives the opportunity to locate each method into a grid
+.grid(columnspan=2)       -->    Have the column span using two column spaces instead of one
+.grid(padx=20, pady=5)    -->    Padding (space) for method field
+----------------------------------------------------------------------------
+App['background'] = 'white'            --> Change the background color of application
+Entry(<App_name>, background='grey')   --> Change the background of entry(input) field
+Entry(<App_name>, foreground='white')  --> Change the font-color of input field
+Label(<App_name>, text='...')          --> Create an output field
+Label(font=('Courier', 12))            --> font-family chosen, and the font-size
+Label(background='white')              --> The background color of the label changed
+Label(foreground='black')              --> Font color of label
+Button(<App_name>, background='black') --> Change the background color of button
+Button(<App_name>, foreground='white') --> Change the font color of button
+----------------------------------------------------------------------------
+Label(relief='flat')                   --> Make the background 'flat' in appearance (default)
+Label(relief='raised')                 --> Make the background 'raised' in appearance
+Label(relief='sunken')                 --> Make the background 'sunken' in appearance
+Label(relief='groove')                 --> Make the background 'groove' in appearance, with border as well
+Label(relief='ridge')                  --> Make the background 'ridge' in appearance, with border as well
+Label(width=15)                        --> Width of field will enlarge
+Label(borderwidth=4)                   --> Width of the border in label
+            --> Same goes for Buttons and Entry fields <--
+----------------------------------------------------------------------------
+no_choice = IntVar()                                    --> Make a variable for storing an integer value, if checkbox is checked (or not)
+no_choice = StringVar()                                 --> Make a variable for storing a string value, if checkbox is checked (or not)
+checkbox = Checkbutton(<App_name>, text='Checkbox'      --> Make a checkbutton
+Checkbutton(variable=no_choice)                         --> Use the StringVar() variable for checking usage
+Checkbutton(onvalue='Yes', offvalue='No')               --> If checked, then 'Yes' is valued, else 'No'
+msg = Label(App2, text=no_choice.get())                 --> Retrieve the evaluation of the usage for checkbutton
+checkbox.deselect()                                     --> Have the checkbox unselected by default
+no_choice.get()                                         --> Retrieve the evaluation for the usage of checkbox
+----------------------------------------------------------------------------
+from random import choice
+chosen = 'Choice: '+str(choice(user_msg))               --> Get a random value from the string 'user_msg'
+
+from random import sample
+chosen = 'Choice: '+str(sample(user_msg, 2))            --> Get two random values from the string 'user_msg'
+----------------------------------------------------------------------------
+choice = StringVar()                                    --> Creating a checkbox, where if checked we print two numbers, else one number
+checkbox = Checkbutton(App, text='Double', variable=no_choice, onvalue=2, offvalue=1)
+checkbox.deselect()
+checkbox.grid(row=1, column=0, columnspan=2, padx=25, pady=5)
+----------------------------------------------------------------------------
+choice = StringVar()
+radiobutton1 = Radiobutton(<App_name>, text='Option1')      --> Create some radiobuttons
+radiobutton1 = Radiobutton(variable=choice, value='RB1 selected')
+radiobutton1.select()                                       --> Have Radiobutton1 selected as default (.deselect() for not selecting)
+radiobutton1.pack()
+radiobutton2 = Radiobutton(<App_name>, text='Option2')
+radiobutton2 = Radiobutton(variable=choice, value='RB2 selected')
+radiobutton2.pack
+
+def show():
+    msg = Label(<App_name>, text=choice.get())
+    msg.pack()
+
+button = Button(<App_name>, text='Show', command=show)
+button.pack()
+----------------------------------------------------------------------------
+sld_val = IntVar()                  --> Create a slider, to chose a from-to number
+sld = Scale(<App_name>, from_=0, to=100, variable=sld_val, orient=HORIZONTAL)       --> default value is 'Vertical'
+
+def show():
+    msg = Label(<App_name>, text=sld_val.get())
+    msg.pack()
+
+button = Button(<App_name>, text='Show', command=show)
+button.pack()
+----------------------------------------------------------------------------
+# Show user input message when button is clicked
+def pick():
+    user_msg = (userInput.get()).split(',')
+
+    if no_choice.get() == 2:
+        # Retrieving two elements in the form of a list (using 'sample')
+        elements = sample(user_msg, 2)
+        chosen = 'Choice: ' + str(elements[0]) + ' ' + str(elements[1])
+    else:
+        # Retrieving one element from the input string (using 'choice')
+        chosen = 'Choice: ' + str(choice(user_msg))
+
+    msg = Label(App, text=chosen, font=('Courier', 12),
+                background='grey', foreground='black', width=10)
+    msg.grid(row=3, column=0, columnspan=2, padx=25, pady=10)
+
+    # Make cancel button enabled when user has activated the program
+    if quit_button['state'] == DISABLED:
+        quit_button['state'] = NORMAL
+----------------------------------------------------------------------------
+# Create a dropdown menu, which then changes the background color
+menu_ch = StringVar()
+options = ['Grey', ''Red', 'Blue', 'Green', 'Yellow', 'Brown', 'Black', 'White']
+menu = OptionMenu(App, menu_ch, *options)
+menu_ch.set('Grey')
+menu.pack()
+
+def show():
+    msg = Label(App, text='          ', background=(menu_ch.get()).lower())
+    msg.pack()
+
+button = Button(App, text='Show', command=show)
+button.pack()
+----------------------------------------------------------------------------
+# Create a separate window for displaying the output
+output_window = Toplevel()
+output_window.title('Output')
+msg = Label(output_window, text=chosen)
+----------------------------------------------------------------------------
+# Open up a viewer for images in the display window
+img = ImageTk.PhotoImage(Image.open(r'Icons\toy-robot.png'))
+lbl = Label(App, image=img)
+lbl.pack()
+----------------------------------------------------------------------------
+# Saving a selected image (img) as an formatted ICO file,
+# with the given ico size (height x length)
+from PIL import Image
+img.save(f'{icon_name.get()}.ico', format='ICO',
+        sizes=[(ico_size.get(), ico_size.get())])
+----------------------------------------------------------------------------
+# Selecting the image from a file dialog box
+def img_choose():
+    from PIL import Image
+    global img
+
+    App.img_dir = filedialog.askopenfilename(initialdir='C:', title='Choose an image',
+                                             filetypes=(('PNG Icons', '*.png'),
+                                                        ('JPG Icons', '*.jpg'),
+                                                        ('All files', '*.*')))
+    img = Image.open(App.img_dir)
+----------------------------------------------------------------------------
