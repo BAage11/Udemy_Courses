@@ -1,0 +1,109 @@
+Link:
+https://www.udemy.com/course/full-python-programming/learn/lecture/23214196#overview
+
+
+About this course
+Learn python programming with djnago, machine learning, etc. 
+for anyone who wants to become an advanced level programmer.
+
+
+By the numbers
+Skill level: All Levels
+Languages: English
+Captions: No
+Practice tests: 2
+Questions: 20
+Lectures: 206
+Video: 21 total hours
+
+
+Description:
+Learn the programming fundamentals with Python 3 ! Python for beginners 
+Complete Python Bootcamp! Rise from a beginner to an advanced level 
+programmer in no time ⌚! This specialized course is truly meant to make 
+you an advanced level programmer !
+
+Whether you become a Python developer,  Full Stack Web Developer or 
+Data Scientist - this course will help you in every way and we will 
+do the same by not just learning but mastering the skills as well! 
+And to the same we will create 15+ applications with python like:
+
+- Dice Roller : Python GUI application with tkinter to generate random 
+dice outputs
+
+- Total Seconds & Days Counter : Another GUI Python application which will 
+calculate how much days and seconds one has lived
+
+- Length Converter : Interchange length units like Foot, Meters & Inch 
+with Python programming through a Python GUI application
+
+- Image to Icon Converter : Convert .png, .jpg, .jpeg, etc. images into 
+icons with python gui programming
+
+- Random element selector : Pass a certain number of choices like blue 
+dress or red dress and get a decision picked
+
+- Data Analysis : Analyze data with numpy and pandas library
+
+- Data Visualization : Plot different visuals of data like bar charts, 
+pie charts, graphs, area plots, etc. with matplotlib
+
+- Trees Survey Report : Generate a survey report with data science
+
+- User Credentials Data : Manage the credentials of users like first name, 
+last name, email, etc.
+
+- Sales Data Report : Analyze the sales report in a week with Python Data 
+Analysis
+
+- eBook Store : Become an full stack developer with django 3 and create an 
+ecommerce website development with html, css & bootstrap
+
+- Weight Predictor : Create a machine learning python model to predict 
+the age of a person if his height is known
+
+- Rainy or Clear Weather : Predict whether it will rain or not by passing 
+some parameters to classification model
+
+- Flavor Predictor : Find out what flavor does a person like if age & gender 
+is known with machine learning
+
+- Rating Bot : Create a natural language processing model to rate comments 
+& reviews automatically
+
+- Face Recognizer : Perform human face recognition with Computer Vision 
+and opencv
+
+
+- Python GUI
+- Data Science
+- Full Stack Web Development with Django
+- Machine Learning
+- Artificial Intelligence
+- Natural Language Processing
+- Computer Vision
+
+
+What you’ll learn:
+- Fundamentals of Programming with Python 3
+- Python Programming in Depth
+- All Built-in Functions in Python and How to create one?
+- Object Oriented Programming with Python
+- Dice Roller 🎲 - Python GUI application with tkinter to generate random dice outputs
+- ⌚ Total Seconds & Days Counter - Another GUI Python application which will calculate how much days and seconds one has lived
+- Length Converter 📏- Interchange length units like Foot, Meters & Inch with Python programming through a Python GUI application
+- Image to Icon Converter 🔄 - Convert .png, .jpg, .jpeg, etc. images into icons with python gui programming
+- Random element selector - Pass a certain number of choices like blue dress or red dress and get a decision picked
+- Trees Survey Report 📈 - Generate a survey report with DATA SCIENCE
+- Sales Data Report 📊 - Analyze the sales report in a week with Python Data Analysis
+- eBook Store 🌐 - Become an full stack developer with django 3 and create an ecommerce website
+- Weight Predictor ⚖️: Create a machine learning python model to predict the age of a person if his height is known
+- Rainy or Clear Weather 🌨️ - Predict whether it will rain or not by passing some parameters to classification model
+- Flavor Predictor 🍨 - Find out what flavor does a person like if age & gender is known with machine learning
+- Rating Bot 🤖- Create a natural language processing model to rate comments & reviews automatically
+- Face Recognizer 😑 - Perform human face recognition with Computer Vision and opencv
+
+
+Instructor:
+Rahul Mula
+Python Developer

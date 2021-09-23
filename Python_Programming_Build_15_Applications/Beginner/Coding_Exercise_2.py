@@ -1,0 +1,1 @@
+print("Hello,\n\nIt's been a while but,\nHow are you?\n\nHave a nice day\nJohn")
