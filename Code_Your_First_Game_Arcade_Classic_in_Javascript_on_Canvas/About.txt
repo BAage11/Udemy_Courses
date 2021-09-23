@@ -1,0 +1,90 @@
+Link:
+https://www.udemy.com/course/code-your-first-game/learn/lecture/2497876?start=15#overview
+
+
+About this course
+Program a complete game today. No special software or 
+install required. All you need is a text editor and a web browser.
+
+
+By the numbers
+Skill level: Beginner Level
+Languages: English
+Captions: Yes
+Lectures: 12
+Video: 2 total hours
+
+
+Description
+At the end of this short course you'll have programmed your first game. 
+You'll learn gameplay development fundamentals by really doing it – 
+writing and running real code on your own machine.
+
+Each step of the course has the source code attached exactly as it 
+should look at that time (click "View Resources" then "Downloadable Resources"), 
+for you to compare to or pick up from, so you can't get stuck!
+
+Begin Your Game Programming Journey the Proven Way
+
+"Make the simplest game possible." "Program a ball and paddle project." 
+"Practice by first remaking something from the 1970's." 
+All beginning developers hear this advice from more experienced peers... 
+because it works!
+
+By following this approach you will:
+	- Learn design from a fun classic that people know and enjoy.
+	- Start your practice today – now! – without waiting for an idea.
+	- Finish your game in hours or in a weekend, not over months.
+	- Understand every line of code used in the entire program.
+	- Avoid distraction from searching for or creating detailed art.
+	- Master fundamentals needed to make your own games better.
+
+You can program this game with a normal text editor, and run it in 
+the web browser you already have. No special software is needed.
+
+Though you'll be coding in JavaScript for HTML5 canvas in this course, 
+the focus is on common game programming concepts. You can later 
+apply these same patterns to get quick results in other programming 
+languages such as C#, Java, ActionScript 3, C++, or Python.
+
+
+What you’ll learn
+	- Display, position, and move filled shapes for retro and 
+	  prototype gameplay
+	- Move a ball around your game space such that it bounces 
+	  off boundaries
+	- Handle real-time mouse input
+	- Detect and respond to simple collisions
+	- Program very basic artificial intelligence
+	- Keep and display score during play
+	- Understand the subtle, key difference between a 
+	  classic game in this style which is fun to play 
+	  versus one that isn't
+	- Define and code a win condition and end state for your game
+
+
+Are there any course requirements or prerequisites?
+	- Very early on students will need to show file extensions 
+	  in their operating system (explained briefly in the video)
+	- If a plain text editor is available that has programming 
+	  features like line numbers and auto-indent 
+	  (ex. Notepad++ on PC, TextWrangler on Mac) that may be 
+	  handy but is not necessary, as a generic text editor 
+	  like Notepad or TextEdit will work fine for a program of this size
+
+
+Who this course is for:
+	- This is for anyone who wants a quick but thorough 
+	  introduction to simple game programming in a way that 
+	  doesn't require any special software, download, or installation
+	- If you've had at least a little exposure to generic programming 
+	  concepts like variables, functions, and if-statements 
+	  you'll have an advantage, however in case you've never heard 
+	  those terms they're explained briefly as they come up
+	- Although this a uses JavaScript and HTML5, it is not intended 
+	  for someone who is focused on learning HTML5/JS for web page design
+
+
+Instructor
+Chris DeLeon
+Independent Game Development Educator, 23 years making games
