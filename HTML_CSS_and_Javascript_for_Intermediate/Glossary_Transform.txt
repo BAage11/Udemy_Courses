@@ -1,0 +1,60 @@
+//////////////////////////////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 2s ease, height 1s linear;
+}
+
+div:hover {
+	width: 300px;
+}
+
+div:active {
+	height: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>The Transition</h1>
+
+</body>
+</html>
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+<html lang="en">
+<head>
+<style>
+.item {
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	transition: all 1s ease;
+}
+
+.item:hover {
+	/* transform: translate(50px, 50px); */
+	/* transform: rotate(50deg); */
+	/* transform: scale(0.1); */
+	/* transform: skew(20deg, 40deg); */
+}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="item></div>
+	</div>
+</body>
+</html>
+
+//////////////////////////////////////////////////////////////////////////////////

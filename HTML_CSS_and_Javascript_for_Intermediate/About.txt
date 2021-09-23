@@ -1,0 +1,62 @@
+Link:
+https://www.udemy.com/course/html-css-and-javascript-for-intermediate/learn/lecture/25208628?start=15#overview
+
+
+About this course
+Improve your HTML, CSS and JS skills by creating an awesome movie website.
+
+
+By the numbers
+Skill level: Intermediate Level
+Languages: English
+Captions: Yes
+Lectures: 15
+Video: 2 total hours
+
+
+Description
+If you are an intermediate HTML, CSS and JavaScript learner, it might 
+be hard to find some path to follow. You can be stuck between really 
+basic designs and confusing JavaScript libraries and frameworks. 
+Here is the chance to create something between them. Let's build a 
+real-world project and improve your skills. In this course we are going 
+to be building a responsible movie website which includes all new 
+generation popular features. You are going to be learning flexboxes, 
+positioning, calculating sizes, transforms, transitions and more in 
+the CSS part. You are going to mix your all knowledge and create an ultimate 
+design. And in the JavaScript part, you are going to create a smooth slider 
+and dark-mode toggle. And you will use only pure JavaScript. No libraries, 
+no frameworks. And you are going to use new JavaScript features such as 
+const-let keywords and arrow functions. After this course, you will be 
+able to create more professional websites and be more confident about 
+building modern web applications. And don't forget, if you are an absolute 
+beginner, it might not be the best idea starting with this course. 
+I recommend you to learn basics of HTML, CSS and the JavaScript and come back 
+again and start this practical course. Let's join this journey and be one 
+step closer to the professional web development life. I hope I will see 
+you in the first lesson.
+
+
+What you’ll learn
+	- Intermediate HTML and CSS and JavaScript.
+	- Design Real-world Web Project.
+	- Basic of UI Design.
+	- Responsive Web Design.
+	- Basic Web Animations.
+
+
+Are there any course requirements or prerequisites?
+	- Being intermediate level of HTML, CSS
+	- Be able to understand basic of JavaScript.
+
+
+Who this course is for:
+	- Developers who want to improve their skills.
+	- Designers curious about real-world web design.
+	- Intermediate web developers.
+
+
+Instructor:
+Safak Kocaoglu
+Computer Engineer
+
