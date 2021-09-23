@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contact </title>
+        <link rel="stylesheet" href="../styles/styles.css">
+        <style>
+            body {
+                font-family: Roboto Thin;
+                background-image: url('../images/background-contact.png');
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+
+            .width-30 {
+                width: 30%;
+            }
+
+            .contact-question {
+                background-color: rgb(255, 255, 255, 0.1);
+                margin-bottom: 4px;
+                text-align: center;
+            }
+
+            .contact-question-title {
+                color: #f3d000;
+                font-size: 25px;
+            }
+
+            .button-yellow {
+                background-color: #f3d000;
+                border: none;
+                color: #442d4d;
+                padding: 5px 25px 5px 25px;
+                transition: 0.5s;
+            }
+
+            .button-yellow:hover {
+                background-color: #ddd4e0;
+                border: none;
+                color: #442d4d;
+                padding: 5px 25px 5px 25px;
+            }
+        </style>
+
+        <script>
+            function questionSent() {
+                alert("Your question has been sent")
+            }
+        </script>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div>
+            <a href="Home.html">
+                <img src="../images/logo.png" alt="logo not loaded" height="120" />
+            </a>
+
+            <div class="navigation-links">
+                <a href="Home.html" class="navigation-link">Home</a>
+                <a href="About.html" class="navigation-link">About</a>
+                <a href="Course.html" class="navigation-link">Course</a>
+                <a href="Contact.html" class="navigation-link">Contact</a>
+            </div>
+        </div>
+
+        <!-- Middle -->
+        <div>
+            <div class="width-100 display-if">
+                <!-- Map -->
+                <div class="width-100">
+                    <iframe 
+                        width="100%" 
+                        height="410" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+
+                        <a href="https://www.maps.ie/draw-radius-circle-map/">Google radius map</a>
+                    </iframe>                
+                </div>
+
+                <!-- Questions -->
+                <div class="width-100 contact-question">
+                    <span class="contact-question-title"> Send us a question: </span>
+
+                    <form action="" method="get" target="_self" class="yellow-text">
+                        Name: <br> 
+                        <input type="text" name="nameField" class="width-30" required /> <br>
+
+                        Surname: <br> 
+                        <input type="text" Surname="surnameField" class="width-30" required /> <br>
+
+                        Age: <br> 
+                        <input type="date" name="ageField" class="width-30" value="1980-01-01" max="2020-12-31" required /> <br>
+
+                        Gender: <br> 
+                            Male: 
+                                <input type="radio" name="gender" value="male">
+                            Female: 
+                                <input type="radio" name="gender" value="female" checked>
+                                <br>
+
+                        Tel: <br> 
+                            <input type="tel" name="telField" class="width-30" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-123-123" required/> <br>
+    
+                        Type of question: <br>
+                            <select name="typeField" class="width-30">
+                                <option value="course">
+                                    Question about course
+                                </option>
+
+                                <option value="lesson" selected>
+                                    Question about lesson
+                                </option>
+                            </select> <br>
+
+                        Question: <br>
+                            <textarea name="questionField" rows="5" class="width-30" minlength="3" required></textarea> <br>
+
+                        <input type="submit" value="SEND" class="button-yellow" onclick="questionSent()" />
+
+                        <input type="reset" value="RESET" class="button-yellow"/>
+                    </form>
+                </div>
+            </div>
+
+            <div class="grey-text">
+                <b>Our address is:</b>
+                <address> 1 Grafton Street, Dublin, Ireland </address>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>
+                <a href="https://www.facebook.com">
+                    <img src="../images/fb.png" alt="fb not loaded" height="50" />
+                </a>
+
+                <a href="https://www.instagram.com">
+                    <img src="../images/ig.png" alt="ig not loaded" height="50" />
+                </a>
+
+                <a href="https://www.twitter.com">
+                    <img src="../images/tw.png" alt="tw not loaded" height="50" />
+                </a>
+            </div>
+            
+            <p class="mt-0">
+                copyright &copy; <a href="mailto:someaddress@mail.com" class="grey-text">MasterMinds</a><sup>&reg;</sup>
+            </p>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+<!-- 
+    Google Map:
+        https://www.maps.ie/create-google-map/?fbclid=IwAR1LKDkZzYxW9_DnibtKpNpJkOu0c5ojRacbDFrcH3WpLzpCSsgms4pf2YQ 
+-->

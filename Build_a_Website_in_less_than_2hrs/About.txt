@@ -1,0 +1,62 @@
+Link:
+https://www.udemy.com/course/build-a-website-in-less-than-2-hours-step-by-step/learn/lecture/22707299?start=0#overview
+
+
+About this course
+Quick and easy, step by step course, where you can learn how to 
+build website in less than 2 hours with HTML and CSS.
+
+
+By the numbers
+Skill level: Beginner Level
+Languages: English
+Captions: Yes
+Lectures: 15
+Video: 2 total hours
+
+
+Description
+What are your first thoughts when you see some beautiful website 
+on internet? Something like, they spent weeks or maybe months to 
+create it? They spent bunch of money to pay some designers and developers 
+to build it? Well answers on these questions could be yes in some cases, 
+but in the most cases those websites are created in one day or 
+even just a few hours. In this course we will show you how to create 
+your own website, step by step, completely from the scratch in 
+less than 2 hours!
+
+We will use HTML to create skeleton for our website, and also we will 
+use CSS to add some styles to our website (change colors, position 
+of elements, change font size, font family etc.). Some previous 
+knowledge about HTML and CSS would be beneficial, but it's not mandatory 
+for this course. Even if you don't have any previous knowledge about 
+HTML and CSS, and you need/want to create website, or if you just want to 
+create general overview how to build website, this course is  perfect 
+for you!  Please be aware of that in this course we have used our own 
+materials (logo, images, text etc.) to create website just like we want, 
+but you can feel free to use your own images, text etc. to create website 
+for your own needs.
+So, let's dive into it!
+
+
+What you’ll learn
+	- You'll learn how to use HTML to build website
+	- You'll learn how to use CSS to build website
+	- You'll learn about basic website structure
+	- You'll learn how to use Notepad++ for website development
+
+
+Are there any course requirements or prerequisites?
+	- You need basic knowledge of any text editor (Notepad, Notepad++ etc.)
+	- Basic knowledge about HTML is beneficial
+	- Basic knowledge about CSS is beneficial
+
+
+Who this course is for:
+	- For HTML and CSS beginners
+	- For those who want to learn how to build website quick and easy
+
+
+Instructor:
+MasterMinds Tutorials
+Software engineers

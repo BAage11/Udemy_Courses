@@ -1,0 +1,38 @@
+body {
+  font-family: Roboto Thin;
+  background-image: url("../images/background-contact.png");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.contact-question {
+  background-color: rgb(255, 255, 255, 0.1);
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.contact-question-title {
+  color: #f3d000;
+  font-size: 25px;
+}
+
+.button-yellow {
+  background-color: #f3d000;
+  border: none;
+  color: #442d4d;
+  padding: 5px 25px 5px 25px;
+  transition: 0.5s;
+}
+
+.button-yellow:hover {
+  background-color: #ddd4e0;
+  border: none;
+  color: #442d4d;
+  padding: 5px 25px 5px 25px;
+}
+
+/* https: ; //www.maps.ie/create-google-map/
