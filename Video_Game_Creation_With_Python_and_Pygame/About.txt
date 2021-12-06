@@ -1,0 +1,134 @@
+Link:
+https://www.udemy.com/course/the-art-of-doing-video-game-creation-with-python-and-pygame/learn/lecture/27555510?start=0#overview
+
+
+About this course
+From simple games using single images to complex games using classes 
+and 100 sprites, this course will cover it all!
+
+
+By the numbers
+Skill level: Beginner Level
+Languages: English
+Captions: Yes
+Lectures: 93
+Video: 17.5 total hours
+
+
+Description
+Have you learned the fundamentals of Python and then asked yourself; 
+what's next?
+
+If so, consider taking this course which will start you on your 
+journey to making your own playable, fun, and rather addicting video 
+games using Python and the Pygame library. 
+
+So often, when students ask for advice they are told to, "Go build something" 
+or "Get involved on a project" but have no idea what projects to build or 
+get involved in.
+
+This course will set you on your way! In this course I will walk you though, 
+step by step, on how to to design the layout and the functionality of 
+7 unique, engaging, and most importantly, FUN games.  By the end of this 
+course, I promise that you will be coming up with your own game ideas and 
+feel confident enough in your abilities to create them.
+
+In my experience teaching computer science, students tend to flourish under 
+the basics but hit a wall when we approach object oriented programming.  
+The shift to using Classes as a way to structure code is difficult and 
+often times students don't have enough exposure to meaningful examples of 
+how to use Classes to help make complex code more efficient.  I believe by 
+the end of this course, you will understand how to use classes.
+
+This course is designed in such a way that NO KNOWLEDGE OF CLASSES is 
+needed to start!  We will begin by learning the fundamentals of the Pygame 
+library and video game design concepts as we move onto making 4 very fun 
+arcade style games.
+	- Feed the Dragon:  Using your arrow keys, move the dragon up 
+	  and down, trying to eat as many gold coins as you can.  
+	  The more coins you eat, the faster you move!
+	- Click the Clown:  Using your mouse, click the clown on your 
+	  screen as he moves in random directions.  With each click, 
+	  he moves faster and faster!
+	- Snake:  Relive the glory days of cellphone gaming circa 2000 
+	  with the classic Snake style game!
+	- Burger Dog: Feed a hungry pup burgers that are falling from 
+	  the sky.  Time your speed boosts just right to catch those 
+	  burgers that are just out of reach!
+
+We will then review/teach concepts of classes and inheritance in Python 
+as they are crucial tools to help us take our games to the next level using 
+Sprites and Sprite Groups.  We will spend some time learning more intermediate 
+concepts such as how to use sprites, sprite groups, and various sprite 
+collision detection methods as we move onto making 2 intermediate level games.
+	- Monster Wrangler: A heroic Knight must wrangle various monsters 
+	  on the screen.  Be careful to collect the right type of monster; 
+	  collect the wrong one and you will be punished!
+	- Space Invaders:  Who doesn't love space invaders????  Save 
+	  civilization from wave after wave of impending aliens slowly 
+	  (and then quickly) creeping across and down the screen in that 
+	  classic Space Invader motion!
+
+The third portion of this course will focus on more advanced topics such as 
+creating a tile map and using/reading it to create more complex level designs, 
+using 2 dimensional vectors to aid with more complex player movement such as 
+running and jumping under forces of friction and gravity, and adding character 
+animations to make our games really come to life!  We will use these more 
+advanced concepts as well as all of our previous knowledge to make one last 
+game that will be a great final project for you to show off!
+	- Zombie Knight: It's dark, spooky, and the zombies have risen!!!  
+	  In this classic style platformer, you a trusty Knight must survive 
+	  night after night of zombie attacks.  Jump from platform to 
+	  platform.  Use portals to teleport across the level.  Attack 
+	  zombies with your trusty sword to kill them....BUT, you must 
+	  remember; zombies can always rise from the dead!  Finish them 
+	  off for good by stomping on them once you kill them with your 
+	  sword!  Most importantly, collect valuable rubies and prevent more 
+	  zombies from rising!   
+
+
+What you’ll learn
+	- Fundamentals of the Pygame library and overall video game design.
+	- The use of Classes and Inheritance to make complex code more 
+	  organized and efficient.
+	- How to create surfaces, blit images, render text, handle user input, 
+	  and detect collisions.
+	- How to work with sprites, sprite groups, and more robust collision 
+	  methods.
+	- How to create our own tile map and read a tile map to design a 
+	  game level.
+	- How to use 2 dimensional vectors to handle complex platformer 
+	  motion such as running and jumping under gravity and friction.
+	- How to add custom character animations using sprite sheets to 
+	  help make our games really come to life.
+	- How to use collision masks to have pixel perfect collisions 
+	  when needed.
+	- Create 7 awesome games in total! 4 that are very beginner friendly, 
+	  2 that are intermediate, and 1 that is advanced.
+
+
+Are there any course requirements or prerequisites?
+	- Basic Python/computer science understanding.
+	- Students should understand basic things like variables, lists, 
+	  loops, and conditionals as I wont really spend time teaching these 
+	  concepts but rather showing how to use them in larger projects.
+	- In the second half of the course we will be switching to using 
+	  classes extensively. I will spend some time reviewing and teaching 
+	  the topics of classes and inheritance but prior knowledge may 
+	  be helpful.
+
+
+Who this course is for:
+	- Beginner Python developers curious about video game design 
+	  and the Pygame library.
+	- Beginner Python developers looking to strengthen their 
+	  understanding of Classes and how they can be used in larger projects.
+	- Beginner Python developers who have a love for classic style 
+	  arcade games.
+
+
+Instructor:
+Michael Eramo
+Educator, Master Teacher, Self-Taught Programmer
+
+
