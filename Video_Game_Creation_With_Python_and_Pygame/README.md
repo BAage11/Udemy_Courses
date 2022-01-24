@@ -7,5 +7,6 @@ All of the programs (games) can be run using any IDE of your liking, for example
   - Spacebar
   - Enter tab 
 
+<br>
 Previews of each game can be found under the folder named 'Preview'
 Enjoy!
